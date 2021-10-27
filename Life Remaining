@@ -1,0 +1,22 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+#this is giving us how much is left
+time_left = 90 - int(age)
+print(type(time_left))
+
+#this is setting up variables to use later
+weeks = 52
+months = 12
+days = 365
+
+#calculations to display
+weeks_left = (f"{time_left * weeks} weeks left")
+months_left = (f"{time_left * months} months left")
+days_left = (f"{time_left * days} days left")
+
+#final display
+print(f"you have {days_left}, {weeks_left}, {months_left}.")
