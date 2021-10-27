@@ -1,0 +1,16 @@
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+
+#checks what "two_digit_number" is
+print(type(two_digit_number))
+
+#converts the first digit into a number
+first_dig = int(two_digit_number[0])
+#converts the second digit into a number
+second_dig = int(two_digit_number[1])
+#adds the two numbers together and displays them
+print(first_dig + second_dig)
