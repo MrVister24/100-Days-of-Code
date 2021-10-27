@@ -1,0 +1,15 @@
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+#BMI = H / W squared
+
+#converts the STR to either an INT or FLOAT depending on the stat
+Ht = float(height)
+Wt = int(weight)
+
+#displays the final INT for the BMI
+print(int(Wt / Ht **2))
