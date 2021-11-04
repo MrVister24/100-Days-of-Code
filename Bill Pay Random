@@ -5,7 +5,14 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
+# import random
+# print(f"It\'s {random.choice(names)}\'s turn to buy today.")
+
 import random
 
-#this will select a random name in the names list and display that to the user.
-print(f"It\'s {random.choice(names)}\'s turn to buy today.")
+#gets total number in the list
+num_names = len(names)
+
+random_choice = random.randint(0, num_names - 1)
+buyer = names[random_choice]
+print(buyer + " is paying today.")
